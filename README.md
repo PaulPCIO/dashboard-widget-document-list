@@ -31,6 +31,19 @@ Widget title
 }
 ```
 
+### `createButtonText` (string)
+Change the default create button text
+
+```js
+{
+  name: 'document-list',
+  options: {
+    title: 'Last edited',
+    createButtonText: 'Create new Book'
+  }
+}
+```
+
 ### `order` (string)
 Field and direction to order by when docs are rendered
 
